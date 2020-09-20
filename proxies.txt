@@ -1,0 +1,2 @@
+If using custom proxies - delete this text and paste your proxies here - I'm a fan of using https://checkerproxy.net/ - looking at archives and copying the ones that meet my requirements.
+Note that the other file automatically scrapes!
