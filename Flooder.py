@@ -5,6 +5,7 @@ from proxyscrape import create_collector
 from concurrent.futures import ThreadPoolExecutor
 from fake_useragent import UserAgent
 import threading
+import time
 import os 
 os.system("Color 02")
 
@@ -38,6 +39,7 @@ def my_function():
     os.system(f"title -ip logger spammer- sending to {link} from {proxy}")
 while True:
     threading.Thread(target = my_function).start()
+    time.sleep(0.01)
 
 
 
